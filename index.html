@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO Application</title>
+    <!-- CSS STYLESHEET LINKS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <!-- CUSTOM FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="app-heading">TODO Application</h1>
+    <div class="todo-container">
+      <form action="" id="todo-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Enter your task here..."
+          autocomplete="off"
+        />
+        <button class="add-task-btn" id="add-task-btn">Add TODO</button>
+      </form>
+      <ul id="tasks-list">
+        <!-- <li class="task-item">
+          <input type="checkbox" id="task-checkbox-1" class="task-checkbox" />
+          <label class="checkbox-label" for="task-checkbox-1">
+            <svg
+              class="check-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="transparent"
+            >
+              <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+            </svg>
+          </label>
+          <label class="task-text" for="task-checkbox-1"
+            >This Is My First TODO</label
+          >
+          <button class="delete-task-btn" id="delete-task-btn-1">
+            <svg
+              class="delete-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="var(--gray-color)"
+            >
+              <path
+                d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
+              />
+            </svg>
+          </button>
+        </li> -->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

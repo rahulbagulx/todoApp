@@ -1,0 +1,126 @@
+@media (max-width: 767px) {
+  .app-heading {
+    font-size: 2.5rem; /* Slightly smaller font size for smaller screens */
+    padding: 1rem; /* Reduced padding */
+  }
+
+  .todo-container {
+    width: 95%; /* Slightly wider container for better use of space */
+  }
+
+  form input {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .add-task-btn {
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    cursor: pointer;
+  }
+
+  .task-item {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .task-text {
+    font-size: 0.9rem;
+    padding: 0 0.4rem;
+  }
+
+  .checkbox-label {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .app-heading {
+    font-size: 3.5rem; /* Adjusted font size for medium screens */
+    padding: 1.5rem; /* Adjusted padding */
+  }
+
+  .todo-container {
+    width: 85%; /* Slightly wider container */
+  }
+
+  form input {
+    padding: 1.1rem;
+    font-size: 1.1rem;
+  }
+
+  .add-task-btn {
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    cursor: pointer;
+  }
+
+  .task-item {
+    padding: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .task-text {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .checkbox-label {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-heading {
+    font-size: 4.6rem;
+    padding: 2rem;
+  }
+
+  .todo-container {
+    width: 700px; /* Fixed width for larger screens */
+  }
+
+  form input {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .add-task-btn {
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    cursor: pointer;
+  }
+
+  .task-text {
+    font-size: 1rem;
+  }
+}
